@@ -1,0 +1,16 @@
+Links de entrega
+
+GitHub:
+https://github.com/DANIEL450223/Proyecto_Calculo_Degradacion_Core.git
+
+Backend Render:
+https://proyecto-calculo-degradacion-core.onrender.com
+
+Swagger:
+https://proyecto-calculo-degradacion-core.onrender.com/swagger
+
+Endpoint de prueba:
+https://proyecto-calculo-degradacion-core.onrender.com/api/Core/degradacion/1
+
+Frontend React:
+Pendiente de desplegar en Vercel o ejecutar localmente con npm run dev.

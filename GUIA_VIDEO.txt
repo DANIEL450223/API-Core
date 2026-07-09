@@ -1,0 +1,15 @@
+Guion corto para el video
+
+Buenas, mi nombre es Emil Daniel Encalada Carrion. En este video presento la integracion de React con el Core principal de degradacion de equipos TI.
+
+Primero muestro el backend desplegado en Render y el endpoint principal /api/Core/degradacion/id. Este endpoint procesa los datos en la API y devuelve el resultado del calculo de degradacion.
+
+Luego muestro la aplicacion React. React no calcula directamente la degradacion principal. React consume la API usando Axios. La URL base esta configurada en el archivo .env.local.
+
+En la pantalla de calculo individual ingreso el ID del equipo y presiono calcular degradacion. La pagina hace una peticion GET al endpoint del Core y muestra equipo, tipo, marca, estado, degradacion, valor actual, reparaciones y recomendacion.
+
+Despues muestro el analisis avanzado. Esta vista usa el resultado de la API y genera una matriz de escenarios. Compara mantener el equipo, hacer mantenimiento preventivo y reemplazarlo. Tambien calcula valor proyectado, costo estimado y prioridad.
+
+Con esto demuestro que no es solo listar datos. La aplicacion consume la API y genera informacion adicional para apoyar la toma de decisiones.
+
+En conclusion, el proyecto aplica una arquitectura separada: backend ASP.NET Core para la logica del Core y React para el consumo, visualizacion y analisis de la informacion.
